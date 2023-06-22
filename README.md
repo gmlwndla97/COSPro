@@ -13,5 +13,14 @@
 **1차 6번**
 - mxn 배열 만들기
   - ``` arr=[[0]*(m) for _ in range(n)]```
+ 
+  **2차 1번**
+  - 추상클래스 메소드명, parameter 모두 동일하게 상속받아야 함
 
+**2차 2번**
+- XX:YY 형태의 시간 비교 -> 분으로 환산
+  - ``` def func_a(times):
+ 	hour = int(times[:2])
+	 minute = int(times[3:])
+	 return hour*60 + minute ```
  
