@@ -13,7 +13,7 @@
 **1차 6번**
 - mxn 배열 만들기
   - ``` arr=[[0]*(m) for _ in range(n)]```
- 
+ __ __ __ __ __ __ __
 **2차 1번**
 - 추상클래스 메소드명, parameter 모두 동일하게 상속받아야 함
 
@@ -28,9 +28,11 @@
 - 조합 구하기
   - combinations
     - ``` from itertools import combinations
-          comb=combinations(arr, 3)
-	  comb=list(comb) ```
+      comb=combinations(arr, 3)
+      comb=list(comb)
+      ```
   - 중첩 for문
  	- ```  for p in range(0, n):
-    		for q in range(p + 1, n):
-             for r in range(q + 1, n): ```
+    for q in range(p + 1, n):
+    for r in range(q + 1, n):
+          ```
