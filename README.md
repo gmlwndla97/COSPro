@@ -19,7 +19,8 @@
 
 **2차 2번**
 - XX:YY 형태의 시간 비교 -> 분으로 환산
-  - ``` def func_a(times):
+  - ```python
+     def func_a(times):
  	hour = int(times[:2])
 	 minute = int(times[3:])
 	 return hour*60 + minute
@@ -36,5 +37,12 @@
  	- ```python
       for p in range(0, n):
 	      for q in range(p + 1, n):
-    		for r in range(q + 1, n):
-          ```
+    		for r in range(q + 1, n): ```
+**2차 5번**
+- 가장 긴 증가하는 부분수열(LIS)
+  - DP  : O(n^2)
+  	- ```python
+     for i in range(0, len(arr)-1) :
+        if(arr[i]<arr[i+1]):
+            dp[i+1]=dp[i]+1 ```
+  - 이진탐색 lower bound : O(nlongn)
