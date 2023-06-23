@@ -29,10 +29,8 @@
   - combinations
     - ``` from itertools import combinations
           comb=combinations(arr, 3)
-	  comb=list(comb)
-	```
+	  comb=list(comb) ```
   - 중첩 for문
  	- ```  for p in range(0, n):
-        for q in range(p + 1, n):
-            for r in range(q + 1, n):
-    ```
+    		for q in range(p + 1, n):
+             for r in range(q + 1, n): ```
