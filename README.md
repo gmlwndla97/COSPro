@@ -67,8 +67,7 @@
        for i in range(length // 2):
 		if s[i] != s[length - i - 1]:
 			return False
-	return True
-	
+       return True
      ```
 - 참고) cos pro 2급 팰린드롬 판단하기
 
