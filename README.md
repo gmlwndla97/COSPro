@@ -60,5 +60,18 @@
 **3차 2번** (완전탐색)
 - 2중 for문
    - ```python
+     for start_idx in range(length):
+	     for cnt in range(1, length - start_idx + 1):
+		     sub_s = s[start_idx : start_idx + cnt]
+       
+       for i in range(length // 2):
+		if s[i] != s[length - i - 1]:
+			return False
+	return True
+	
      ```
 - 참고) cos pro 2급 팰린드롬 판단하기
+
+**3차 3번** (완전탐색)
+- dx, dy 활용
+
