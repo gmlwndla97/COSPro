@@ -74,3 +74,20 @@
 **3차 3번** (완전탐색)
 - dx, dy 활용
 
+**3차 4번** (문자열 슬라이싱)
+- s2[-i:] = 맨뒤에 i개 성분을 선택하는 것
+
+**3차 6번** (소수판별)
+- 에라토스테네스의 체
+- ```python
+  for i in range (3, n + 1, 2) :
+  	is_prime = True
+	for j in range(2, i) :
+		if i % j == 0 :
+		is_prime = False
+		break
+	if is_prime==True:
+		primes.append(i)
+  ```
+**3차 9번**
+- 인덱스 한줄 수정
