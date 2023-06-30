@@ -89,5 +89,10 @@
 	if is_prime==True:
 		primes.append(i)
   ```
-**3차 9번**
-- 인덱스 한줄 수정
+
+ __ __ __ __ __ __ __
+ **4차 5번**
+ - 문자열 뒤집기
+   - string [::-1]
+   - reversed(string)
+ 
