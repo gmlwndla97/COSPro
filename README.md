@@ -2,6 +2,7 @@
 **1차 1번** (추상클래스)
  - 추상메소드 구현
  - https://dojang.io/mod/page/view.php?id=2389
+ - 일반적이므로 메서드를 정의할 때 self 를 첫번째 인자값으로 주는 것이 좋음
 
    
 **1차 5번** (재귀, 탐색)
@@ -95,4 +96,13 @@
  - 문자열 뒤집기
    - string [::-1]
    - reversed(string)
- 
+  
+ **4차 6번**
+ - 정수 자리수 분리
+   - ```python
+     while current != 0:
+	맨 뒤에서부터 한자리씩-> current % 10
+	current=current//10
+     ```
+**4차 8번**
+- 파이썬 배열 중복 요소 제거 : set(리스트) 하고 다시 list(리스트)로 감싸기
