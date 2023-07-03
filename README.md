@@ -114,3 +114,19 @@
     
   ex) 4시 30분
   abs(4* 40 + 30* 0.5 - 30*6)
+
+ __ __ __ __ __ __ __
+ **5차 6번**
+- 진법변환 :  https://velog.io/@code_angler/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%A7%84%EC%88%98%EB%B3%80%ED%99%982%EC%A7%84%EB%B2%95-3%EC%A7%84%EB%B2%95-5%EC%A7%84%EB%B2%95-10%EC%A7%84%EB%B2%95n%EC%A7%84%EB%B2%95
+- n진수 -> 10진수 : int(string, base)
+- 10진수 -> n진수 :
+```python
+def solution(number, q):
+    rev_base = ''
+
+    while number > 0:
+        number, mod = divmod(number, q) -> 몫이랑 나머지 같이 구함 
+        rev_base += str(mod)
+
+    return rev_base[::-1] 
+```
