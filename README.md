@@ -130,3 +130,11 @@ def solution(number, q):
 
     return rev_base[::-1] 
 ```
+**5차 7번**
+- 사이클 찾기 : https://velog.io/@yujin1760/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98Union-Find-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98
+- 1. 각 노드의 부모 노드를 자기자신의 노드번호로 초기화
+  2. 재귀적으로 부모노드찾기
+  3. union으로 부모 합치기
+  4. find로 두 노드가 같은 parent를 가지는지 판별
+
+- 배열 번호로 배열 초기화 :  [i for i in range(n+1)]
