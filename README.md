@@ -138,3 +138,8 @@ def solution(number, q):
   4. find로 두 노드가 같은 parent를 가지는지 판별
 
 - 배열 번호로 배열 초기화 :  [i for i in range(n+1)]
+
+ __ __ __ __ __ __ __
+ **6차 1번**
+ - 2차원 배열 생성 : [[0 for i in range(n)] for j in range(n)]
+ - deque사용법 : from collections import deque, q=deque()
